@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="" id="aboutus">
-    <Navs />
+    <Headers />
     <div class="">
     </div>
     <div class="container">
@@ -31,13 +31,15 @@
 </template>
 
 <script>
+import Headers from '../components/headers'
 import Navs from '../components/navs'
 import Footer from '../components/footer'
 export default {
   name:"aboutus",
   components:{
     Footer,
-    Navs
+    Navs,
+    Headers
   }
 }
 </script>

@@ -15,7 +15,7 @@
           <dd>客服QQ： 3065214992</dd>
           <dd>企业邮箱：jckjgzs@jichuango.com</dd>
           <dd>合作咨询：13333837571(微信同号)
-                       15639282861(微信同号)</dd>
+                        <span>15639282861(微信同号)</span></dd>
         </dl>
         <dl class="col-md-3">
           <dt>关于我们</dt>
@@ -46,7 +46,7 @@ export default {
 
 <style lang="scss" scoped>
 .footers{
-  height: 349px;
+  height: 350px;
   background-color: #101429;
   .footers-bottom {
     height: 70px;
@@ -66,10 +66,17 @@ export default {
       dt {
         color: #ffffff;
         font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 10px;
       }
       dd {
         color: #ffffff;
         font-size: 14px;
+        line-height: 30px;
+        margin-top: 10px;
+        span {
+          margin-left: 70px;
+        }
       }
     }
   }

@@ -36,4 +36,11 @@ ul,li{
 p {
   margin: 0px!important;
 }
+
+a:hover{
+  text-decoration: none;
+}
+ol, ul{
+  margin-bottom: 0px!important;
+}
 </style>

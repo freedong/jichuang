@@ -8,16 +8,16 @@
         <div class="">
           <ul>
             <li>
-              <a href="#">首页</a>
+              <router-link :to="{ name: 'Index', params: {param:123} }">首页</router-link>
             </li>
             <li>
-              <a href="#">小程序</a>
+              <router-link :to="{ name: 'Appletmb', params: {param:123} }">小程序</router-link>
             </li>
             <li>
-              <a href="#">网站派</a>
+              <router-link :to="{ name: 'Websitemb', params: {param:123} }">网站派</router-link>
             </li>
             <li>
-              <a href="#">关于我们</a>
+              <router-link :to="{ name: 'About', params: {param:123} }">关于我们</router-link>
             </li>
           </ul>
           <button>登录</button>
