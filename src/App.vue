@@ -14,6 +14,7 @@ export default {
 <style>
 body{
   font-family: PingFangSC-Regular, sans-serif!important;
+  background-color: #f9f9f9!important;
 }
 #app {
   font-family: PingFangSC-Regular, sans-serif!important;
@@ -42,5 +43,8 @@ a:hover{
 }
 ol, ul{
   margin-bottom: 0px!important;
+}
+.h4, .h5, .h6, h4, h5, h6{
+  margin: 0px!important;
 }
 </style>

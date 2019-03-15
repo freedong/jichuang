@@ -39,6 +39,9 @@ export default {
   line-height: 60px;
 	background-color: rgba(0, 0, 0, 1);
 	opacity: 0.5;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
   .container{
     display: flex;
     justify-content: space-between;

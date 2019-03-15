@@ -150,13 +150,11 @@
 
 <script>
 import Headers from '../components/headers'
-import Navs from '../components/navs'
 import Footer from '../components/footer'
 export default {
   name:"websitemb",
   components:{
     Footer,
-    Navs,
     Headers
   }
 }
@@ -235,7 +233,7 @@ export default {
         h5 {
           color: #1a1a1a;
           font-size: 18px;
-          margin: 18px 0px;
+          margin: 15px 0px!important;
         }
         p {
           color: #999999;
